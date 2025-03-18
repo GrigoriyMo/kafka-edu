@@ -37,7 +37,7 @@ async function init(order, topic) {
   ]
 
   const produced = await producer.sendBatch({ topicMessages });
-
+  
   //await producer.disconnect();
 }
 
